@@ -1,59 +1,19 @@
-// ==========
-// VENDOR LIBRARIES
-// ==========
+// Colors
 
-@import "lib/lib";
+$blue:       #05A9CF;
+$orange:     #FFB100;
+$red:        #FF1E00;
+$gray-light: #EEE;
+$gray:       #666;
+$black:      #000;
+$white:      #FFF;
 
-// ==========
-// MIXINS & FUNCTIONS
-// ==========
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Neuton:400,300,400italic,700,800);
 
-@import "helpers/mixins";
-@import "helpers/functions";
+$neuton: 'Neuton', serif;
 
-// ==========
-// VARIABLES
-// ==========
-
-@import "variables/susy";
-@import "variables/colors";
-@import "variables/themes";
-@import "variables/typography";
-
-// ==========
-// THEME RESET & BASE FILES
-// ==========
-
-@import "base/reset";
-@import "base/extends";
-@import "base/typography";
-
-// ==========
-// LAYOUTS - All Susy and other span related layouts go here
-// ==========
-@import "layouts/layouts";
-
-// ==========
-// MODULES STYLES
-// ==========
-
-@import "modules/header";
-@import "modules/navigation";
-@import "modules/footer";
-// ... your modules here
-
-
-// ==========
-// PAGE SPECIFIC STYLES
-// ==========
-
-// @import "pages/home";
-// @import "pages/contact";
-
-// ... your page here
-
-// ==========
-// SHAME - For new style snippets that haven't been sorted and commented yet
-// ==========
-
-@import "shame";
+body {
+  font-family: $neuton;
+  line-height: 30px;
+}

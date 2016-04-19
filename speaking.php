@@ -7,13 +7,14 @@
 ?>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen"charset="utf-8">
+	<link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/joey/style.css">
 </head>
 <body>
 
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1>hellop</h1>
+				<h1>Hello</h1>
 			</div>
 		</div>
 	</div>

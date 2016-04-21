@@ -10,21 +10,35 @@
 	<link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/joey/style.css">
 </head>
 <body>
-	<section class="speaking-hero">
-		<section class="speaking-hero-copy">
+	<section class="speaking-hero va">
+		<section class="speaking-hero-copy-container">
+			<div class="container">
 				<div class="row">
 					<div class="col-sm-6">
-						<h1 class="speaking-hero-title">Speaking & community building</h1>
+						<div class="bubble-container">
+							<div class="bubble regular red">
+								<img src="<?php echo get_site_url(); ?>/wp-content/themes/joey/images/bubble1.jpg" alt="" class="img-circle">
+							</div>
+							<div class="bubble small blue">
+								<img src="<?php echo get_site_url(); ?>/wp-content/themes/joey/images/bubble2.jpg" alt="" class="img-circle">
+							</div>
+							<div class="bubble large yellow">
+								<img src="<?php echo get_site_url(); ?>/wp-content/themes/joey/images/bubble3.jpg" alt="" class="img-circle">
+							</div>
+						</div>
 					</div>
 					<div class="col-sm-6">
-						<p>I believe in learning through sharing. Most of my web skills were obtained through conference videos, online tutorials and in-person meetups.
-						</p>
-						<p>
-
-						</p>
-						I am always passionate about establishing and building local tech communities to help and mentor each other. I actively seek opportunities to speak at local meetup groups, help revive ones that aren't active or start groups where none exist.
+						<div class="speaking-hero-copy">
+							<p>I believe in learning through sharing. Most of my web skills were obtained through conference videos, online tutorials and in-person meetups.
+							</p>
+							<p>
+								I am always passionate about establishing and building local tech communities to help and mentor each other. I actively seek opportunities to speak at local meetup groups, help revive ones that aren't active or start groups where none exist.
+							</p>
+							<a href="#" class="btn btn-danger">Learn more</a>
+						</div>
 					</div>
 				</div>
+			</div>
 		</section>
 	</section>
 	<section class="talks">
@@ -49,6 +63,30 @@
 						</div>
 					</div>
 				</div>
+				<div class="row mt-l">
+					<div class="col-sm-4">
+						<div class="card">
+							<img src="<?php echo get_site_url(); ?>/wp-content/themes/joey/images/" alt="" />
+							<h1 class="talk-title">Content is a beast</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, perspiciatis.</p>
+							<a href="#" class="btn btn-primary">View Slides</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card">
+							<img src="<?php echo get_site_url(); ?>/wp-content/themes/joey/images/" alt="" />
+							<h1 class="talk-title"></h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, cum.</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card">
+							<img src="<?php echo get_site_url(); ?>/wp-content/themes/joey/images/" alt="" />
+							<h1 class="talk-title"></h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, cumque.</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 			<section class="availability">
@@ -67,6 +105,14 @@
 				</div>
 		</section>
 		<section class="previous-talks"></section>
+	</section>
+	<section class="image-grid">
+		<div class="container">
+			<div class="row">
+				<img src="<?php echo get_site_url(); ?>/wp-content/themes/joey/images/collage2.jpg" class="img-responsive">
+			</div>
+		</div>
+
 	</section>
 
 
